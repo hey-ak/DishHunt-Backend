@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const  connectDB = async () =>{
 
-    await mongoose.connect('mongodb+srv://jhaaj907:hUt82Ips59QJHWYl@cluster0.ytnyipu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(()=>console.log("DB Connected"));
+    await mongoose.connect('https://dishhunt-backend.onrender.com').then(()=>console.log("DB Connected"));
    
 }
 
